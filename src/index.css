@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Space+Grotesk:wght@600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --app-bg: #f4f7ff;
+  --app-text: #1b2138;
+}
+
+* {
+  @apply box-border;
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+  background: var(--app-bg);
+  color: var(--app-text);
+  @apply antialiased;
+}
+
+html, body, #root {
+  @apply h-full;
+}
