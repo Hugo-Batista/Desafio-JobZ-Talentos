@@ -23,7 +23,7 @@ export default function LoginPage() {
             <p>Use qualquer email e senha para fazer login.</p>
           </div>
         </div>
-        <p className="mt-6 text-center text-xs font-semibold tracking-wide text-cyan-50/90">Desenvolvido com ❤️</p>
+        <p className="mt-6 text-center text-xs font-semibold tracking-wide text-cyan-50/90">Desenvolvido por Hugo Batista</p>
       </div>
     </div>
   )
